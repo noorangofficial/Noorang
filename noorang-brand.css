@@ -1,0 +1,13 @@
+.brand > span:first-child,
+.brand > i:first-child {
+  background: #f7eee7 url("./favicon.svg") center / cover no-repeat !important;
+  border-color: transparent !important;
+  color: transparent !important;
+  box-shadow: 0 4px 14px rgba(53, 20, 33, 0.12);
+}
+
+.brand > b {
+  letter-spacing: 0.16em !important;
+}
+
+.brand > small { display: none !important; }
