@@ -3,7 +3,7 @@
 
   if (!("serviceWorker" in navigator)) return;
   window.addEventListener("load", function () {
-    navigator.serviceWorker.register("./sw.js?v=1", {
+    navigator.serviceWorker.register("./sw.js?v=4", {
       scope: "./",
       updateViaCache: "none"
     }).then(function (registration) {

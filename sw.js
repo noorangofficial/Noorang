@@ -1,6 +1,6 @@
 "use strict";
 
-var CACHE_NAME = "noorang-storefront-v3";
+var CACHE_NAME = "noorang-storefront-v4";
 var CORE_FILES = [
   "./",
   "./index.html",
@@ -14,9 +14,9 @@ var CORE_FILES = [
   "./catalog-priority.js",
   "./security-guard.js",
   "./tracking-config.js?v=2",
-  "./assets/entry-D2oOgf0o.js",
-  "./assets/entry-BUBMx9mk.css",
-  "./storefront-runtime.js?v=3"
+  "./entry-D2oOgf0o.js",
+  "./entry-BUBMx9mk.css",
+  "./storefront-runtime.js?v=4"
 ];
 
 self.addEventListener("install", function (event) {
